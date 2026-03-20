@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --color-taller-blue: #1e40af;
+  --color-taller-dark: #1f2937;
+}
+
+body {
+  background-color: theme('colors.gray.50'); /* Cambié neutral-50 por gray-50 que es estándar */
+  color: theme('colors.gray.900');
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+@keyframes scale-in {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+.scale-in-center {
+  animation: scale-in 0.2s ease-out forwards;
+}
+
+/* Asegurar que la barra esté sobre teclados virtuales */
+@media (max-height: 600px) {
+  nav.fixed.bottom-0 {
+    position: fixed !important;
+  }
+}
+
+/* Mejorar comportamiento táctil en iOS */
+@supports (-webkit-touch-callout: none) {
+  nav {
+    padding-bottom: env(safe-area-inset-bottom, 1rem);
+  }
+}
+
+/* Evitar zoom en iOS al tocar */
+@media (max-width: 768px) {
+  input, select, textarea {
+    font-size: 16px !important;
+  }
+}

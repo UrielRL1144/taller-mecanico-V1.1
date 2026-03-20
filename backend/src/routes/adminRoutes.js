@@ -1,0 +1,1 @@
+router.post('/mantenimiento/limpiar-nube', authMiddleware, historialController.limpiarFacturasAntiguas);
