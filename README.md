@@ -40,8 +40,7 @@ AutoStock Pro resuelve esto con un motor de base de datos preparado para matemá
 Sigue estos pasos para correr el proyecto en tu entorno local:
 
 1. Clona el repositorio:
-git clone https://github.com/TuUsuario/autostock-pro.git
-
+git clone https://github.com/UrielRL1144/taller-mecanico-V1.1.git
 2. Instala las dependencias del Servidor:
 cd backend
 npm install
@@ -74,5 +73,5 @@ npm run dev
 
 Diseñado y desarrollado combinando conocimientos de ingeniería informática aplicada a la gestión automotriz.
 
-* **GitHub:** [@TuUsuario](https://github.com/UrielRL1144/taller-mecanico-V1.1.git)
+* **GitHub:** [@TuUsuario]([https://github.com/UrielRL1144/taller-mecanico-V1.1.git](https://github.com/UrielRL1144/taller-mecanico-V1.1.git))
 * **LinkedIn:** [Tu Nombre](www.linkedin.com/in/uriel-ramos-lucio)
