@@ -88,7 +88,7 @@ npm run dev
 # En la terminal del frontend
 npm run dev
 
-## 🧠 Decisiones de Arquitectura (Para Reclutadores)
+## 🧠 Decisiones de Arquitectura 
 
 * **Ingeniería de Datos:** Se migró de tipos `INTEGER` a `DECIMAL(10, 2)` en PostgreSQL para soportar la venta fraccionaria sin errores de redondeo de punto flotante en JavaScript.
 * **Optimización de Red:** Se implementó el patrón *Thumbnail/Preview* solicitando transformaciones al vuelo a Cloudinary (`w_150`, `w_1200`), reduciendo drásticamente el peso de descarga del catálogo.
