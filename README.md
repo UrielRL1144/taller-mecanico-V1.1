@@ -71,7 +71,6 @@ npm run dev
 
 ## 👨‍💻 Autor
 
-Diseñado y desarrollado combinando conocimientos de ingeniería informática aplicada a la gestión automotriz.
+**Uriel Ramos Lucio**
 
-* **GitHub:** [@TuUsuario]([https://github.com/UrielRL1144/taller-mecanico-V1.1.git](https://github.com/UrielRL1144/taller-mecanico-V1.1.git))
-* **LinkedIn:** [Tu Nombre](www.linkedin.com/in/uriel-ramos-lucio)
+Diseñado y desarrollado combinando conocimientos de ingeniería informática aplicada a la gestión automotriz.
